@@ -22,8 +22,9 @@ function UserMood() {
 
   //Variable name can be any value but as a practice make sure use the set<variableName>
   //as the set function
-  const [moodOne, setMoodOne] = useState("happy");
-  const [moodTwo, setMoodTwo] = useState("angry");
+  //set function will replace the varible with passed value
+  const [moodOne, setMoodOne] = useState(1);
+  const [moodTwo, setMoodTwo] = useState(2);
 
   //------ useEffect
 
