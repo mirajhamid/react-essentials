@@ -45,3 +45,9 @@
 .main-items {
   text-align: right;
 }
+
+.userMood__paragraph {
+  background-color: #f8ebce;
+  min-height: 10vh;
+  padding-top: 5vmin;
+}
