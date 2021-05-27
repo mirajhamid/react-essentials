@@ -1,6 +1,7 @@
 import "../css/App.css";
 import restaurantImg from "../images/main/restaurant.jpg";
 import UserMood from "./UserMood.js";
+import Async from "./Async.js";
 
 /**We use props to get the properties
  * passed during the component
@@ -66,6 +67,7 @@ function App(props) {
         today={new Date().toISOString().split("T")[0]}
       />
       <UserMood />
+      <Async username="mirajhamid" />
       <Footer year={new Date().getFullYear()} />
       {props.authorized ? <Authorized /> : <div></div>}
     </div>

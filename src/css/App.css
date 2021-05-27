@@ -46,8 +46,16 @@
   text-align: right;
 }
 
-.userMood__paragraph {
+.userMood__hooks {
   background-color: #f8ebce;
   min-height: 10vh;
   padding-top: 5vmin;
+}
+
+.preStyle {
+  background-color: #f8ebce;
+  display: block;
+  padding: 10px 30px;
+  margin: 0;
+  overflow: scroll;
 }

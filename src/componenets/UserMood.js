@@ -58,8 +58,8 @@ function UserMood() {
   // const [checked, toggle] = useReducer((checked) => !checked, false);
 
   return (
-    <div>
-      <p className="userMood__paragraph">
+    <div className="userMood__hooks">
+      <p>
         user moods are {moodOne} and {moodTwo}
       </p>
       <div className="mood_1_buttons">
@@ -73,7 +73,7 @@ function UserMood() {
         <button onClick={() => setMoodTwo("crazy")}>crazy</button>
       </div>
       <div>
-        <input type="checkBox" value={checked} onClick={toggle} />
+        <input type="checkBox" value={checked} onClick={toggle} readOnly />
         <p>checkBox value {checked ? "checked" : "unchecked"}</p>
       </div>
     </div>

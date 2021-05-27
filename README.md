@@ -15,6 +15,13 @@ This is a basic react APP that can be used to brushup the knowladge of a deveopl
   based on state change of perticular useState value
 - useReducer - to do same as useState but we can define our own fuction to chnage the state
 
+### Phase03
+
+- Asynchronous react
+- Fetch data using hooks (useState and useEffect)
+- Read and display using API
+- Handleing and loading states
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
