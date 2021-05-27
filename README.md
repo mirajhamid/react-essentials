@@ -1,4 +1,33 @@
-# Getting Started with Create React App
+# React Essentials APP
+
+This is a basic react APP that can be used to brushup the knowladge of a deveopler by checking out each branch of the given below.
+
+### Phase01
+
+- This is the basic app with few componenets and display static web app and image.
+
+### Phase02
+
+- Component rendering based on props (Authorized component)
+- useState - State manupulation and useState hooks manupulation
+  to change the value of moods when click on the buttons using the features like UseState, Array destructuring (UserMood component)
+- useEffect - to background change without re-rendering the app, in this phase we log some values
+  based on state change of perticular useState value
+- useReducer - to do same as useState but we can define our own fuction to chnage the state
+
+### Phase03
+
+- Asynchronous react
+- Fetch data using hooks (useState and useEffect)
+- Read and display using API
+- Handleing and loading states
+
+### Phase04
+
+- React routings
+- > npm install react-router@next react-router-dom@next
+- > npm install history
+- OurPractice,Pages components
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

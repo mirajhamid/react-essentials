@@ -45,3 +45,29 @@
 .main-items {
   text-align: right;
 }
+
+.userMood__hooks {
+  background-color: #f8ebce;
+  min-height: 10vh;
+  padding-top: 5vmin;
+}
+
+.preStyle {
+  background-color: #f2d1fa;
+  display: block;
+  padding: 10px 30px;
+  margin: 0;
+  overflow: scroll;
+}
+
+.nav_section {
+  background-color: #e0fcdd;
+  display: block;
+  padding: 10px 30px;
+  margin: 0;
+  overflow: scroll;
+}
+
+Link {
+  padding: 10px;
+}
