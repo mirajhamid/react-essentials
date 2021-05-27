@@ -53,9 +53,21 @@
 }
 
 .preStyle {
-  background-color: #f8ebce;
+  background-color: #f2d1fa;
   display: block;
   padding: 10px 30px;
   margin: 0;
   overflow: scroll;
+}
+
+.nav_section {
+  background-color: #e0fcdd;
+  display: block;
+  padding: 10px 30px;
+  margin: 0;
+  overflow: scroll;
+}
+
+Link {
+  padding: 10px;
 }

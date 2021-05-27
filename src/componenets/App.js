@@ -3,6 +3,9 @@ import restaurantImg from "../images/main/restaurant.jpg";
 import UserMood from "./UserMood.js";
 import Async from "./Async.js";
 
+//this is for navigation
+import { Link } from "react-router-dom";
+
 /**We use props to get the properties
  * passed during the component
  * declaration(use)
@@ -67,7 +70,18 @@ function App(props) {
         today={new Date().toISOString().split("T")[0]}
       />
       <UserMood />
-      <Async username="mirajhamid" />
+      <Async />
+
+      <div className="nav_section">
+        <h3>Navigations</h3>
+        <Link to="home" style={{ padding: "5px" }}>
+          Home
+        </Link>
+        <Link to="colors" style={{ padding: "5px" }}>
+          Colors
+        </Link>
+      </div>
+
       <Footer year={new Date().getFullYear()} />
       {props.authorized ? <Authorized /> : <div></div>}
     </div>

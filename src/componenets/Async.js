@@ -29,8 +29,8 @@ function Async(props) {
           return data;
         })
         .catch(function (err) {
-          console.log(err);
           setErrorGitHubData(err);
+          console.log(errorGitHubData);
         })
         .then(function (data) {
           setGitHubData(data);

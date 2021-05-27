@@ -22,6 +22,13 @@ This is a basic react APP that can be used to brushup the knowladge of a deveopl
 - Read and display using API
 - Handleing and loading states
 
+### Phase04
+
+- React routings
+- > npm install react-router@next react-router-dom@next
+- > npm install history
+- OurPractice,Pages components
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
